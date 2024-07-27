@@ -1,0 +1,21 @@
+   
+First way :   
+   size main.o fun.o final 
+   texts_main=149
+   texts_fun=210
+   text_final=781676
+   datas_main=4
+   datas_fun=0
+   datas_final=23232
+   printf " file1) text = $texts_main , data = $datas_main\n file2) text = $texts_fun , data = $datas_fun \n exec) text =   $text_final , data = $datas_final \n"
+   
+ /******************************************************************************************************/
+Second way :
+
+   size main.o | awk '{print"main text size = "$1}'
+   size fun.o | awk '{print"main data size = "$2}'
+   size fun.o | awk '{print"fun text size = "$1}'
+   size fun.o | awk '{print"fun data size = "$2}'
+   size final | awk '{print"final text size = "$1}'
+   size final | awk '{print"final data size = "$2}'
+
