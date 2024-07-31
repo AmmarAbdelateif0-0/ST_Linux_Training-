@@ -38,7 +38,7 @@ This myshell is a command-line interpreter designed to handle various internal c
 
 - **mymv**: Moves or renames a file from source to destination.
   
- ```sh
+  ```sh
     mymv <source> <destination>
   ```  
 
@@ -85,18 +85,18 @@ External commands are any commands not built into the shell. The shell will atte
   ```    
 
 - **Navigate to the Project Directory** :     
- ```sh
+  ```sh
    cd <project-directory>
- ```    
+  ```    
 
 - **Compile the Shell** : Use gcc or another compiler to compile the shell. For example:
   
-  ```sh
+   ```sh
     gcc  shell.c execution.c internal.c external.c -o my_shell
    ```  
 
 - **Run the Shell** : 
-  ```sh
+   ```sh
     ./my_shell
    ```  
 
