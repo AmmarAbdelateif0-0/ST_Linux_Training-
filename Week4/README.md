@@ -1,10 +1,10 @@
-# *MyShell*
+# **MyShell**
 
-## *Overview*
+## **Overview**
 
 This myshell is a command-line interpreter designed to handle various internal commands, execute external commands, and manage environment variables. It includes features such as process history and command type determination.
 
-## *Features*
+## **Features**
 
 - *Internal Commands: Includes built-in commands such as **" mypwd, myecho, mycp, mymv, mycd, myenvir, exit, and help  "*.
 
@@ -14,128 +14,128 @@ This myshell is a command-line interpreter designed to handle various internal c
 
 - *Environment Variables*: Prints the value of a specified environment variable if it exists.
 
-## *Commands*
+## **Commands**
 
-### - *Internal Commands*
+### - **Internal Commands**
 
-- *mypwd*: Prints the current working directory.
+- **mypwd**: Prints the current working directory.
   
-  sh
+  ```sh
     mypwd
-  
+  ```
 
-- *myecho*: Prints the provided string to the standard output.
+- **myecho**: Prints the provided string to the standard output.
   
-  sh
+  ```sh
     myecho <string>
-    
+  ```
 
-- *mycp*: Copies content from a source file to a destination file.
+- **mycp**: Copies content from a source file to a destination file.
   
-  sh
+  ```sh
     mycp <source> <destination>
-    
+  ```  
 
-- *mymv*: Moves or renames a file from source to destination.
+- **mymv**: Moves or renames a file from source to destination.
   
-  sh
+ ```sh
     mymv <source> <destination>
-    
+  ```  
 
-- *mycd*:  Changes the current working directory.
+- **mycd**:  Changes the current working directory.
   
-  sh
+  ```sh
     mycd <directory>
-    
+  ```  
 
-- *help* : Displays a list of available internalcommands and their descriptions.
+- **help** : Displays a list of available internalcommands and their descriptions.
   
-  sh
+  ```sh
     help
-    
+  ```  
 
-- *exit* :   Exits the shell .
+- **exit** :   Exits the shell .
   
-  sh
+  ```sh
     exit
-    
+  ```
 
-- *myenvir* : Prints the value of the specified environment variable if it exists.
+- **myenvir** : Prints the value of the specified environment variable if it exists.
   
-  sh
+  ```sh
     envir <variable>
-    
+  ```  
 
-- *type*:   Determines if a command is internal, external, or unknown.
+- **type**:   Determines if a command is internal, external, or unknown.
   
-  sh
+  ```sh
     type <command>
-      
+  ```    
 ------------------------
-### - *External Commands*
+### - **External Commands**
 External commands are any commands not built into the shell. The shell will attempt to execute these commands using the system's PATH
 
 ------------------------
 
-## *Building and Running the Shell*
+## **Building and Running the Shell**
 
-- *Clone the Repository* :     
-  sh
+- **Clone the Repository** :     
+  ```sh
     git clone <repository-url>
-      
+  ```    
 
-- *Navigate to the Project Directory* :     
-  sh
+- **Navigate to the Project Directory** :     
+ ```sh
    cd <project-directory>
-     
+ ```    
 
-- *Compile the Shell* : Use gcc or another compiler to compile the shell. For example:
+- **Compile the Shell** : Use gcc or another compiler to compile the shell. For example:
   
-  sh
+  ```sh
     gcc  shell.c execution.c internal.c external.c -o my_shell
-     
+   ```  
 
-- *Run the Shell* : 
-  sh
+- **Run the Shell** : 
+  ```sh
     ./my_shell
-     
+   ```  
 
 ---------------------------------
 
-## *Example Usage*
+## **Example Usage**
  
-- *Start the Shell* : 
-  sh
+- **Start the Shell** : 
+  ```sh
     ./my_shell
-     
+  ```  
 
-- *Execute Internal Commands* : 
-  sh
+- **Execute Internal Commands** : 
+  ```sh
     my_shell> pwd
     /home/user
 
     my_shell> echo "Hello, World!"
     Hello, World!
-
+  ```
      
 
-- *Run External Commands* : 
-  sh
+- **Run External Commands** : 
+  ```sh
     my_shell> ls -l
-     
+  ```   
 
-- *Check Command Type* : 
-  sh
+- **Check Command Type** : 
+  ```sh
     my_shell> type mypwd
     mypwd is an internal command
 
     my_shell> type ls
     ls is an external command
-     
+  ```   
 
-- *Check Environment Variable* : 
-  sh
+- **Check Environment Variable** : 
+  ```sh
     my_shell> envir PATH
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-  
+  ```  
