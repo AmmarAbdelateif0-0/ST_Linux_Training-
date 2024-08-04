@@ -26,7 +26,7 @@ This myshell is a command-line interpreter designed to handle various internal c
 
 - **myecho**: Prints the provided string to the standard output.
   
-  ```sh
+  ```c
     myecho <string>
   ```
 
