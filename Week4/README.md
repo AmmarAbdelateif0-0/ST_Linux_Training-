@@ -138,4 +138,9 @@ External commands are any commands not built into the shell. The shell will atte
     my_shell> envir PATH
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-  ```  
+  ```
+    ---------------------------------
+  ##Debug with gdb
+ 
+ https://github.com/user-attachments/assets/5dbdd13b-953f-443d-a346-9e0562263962
+ 
