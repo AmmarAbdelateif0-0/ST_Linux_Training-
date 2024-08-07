@@ -1,0 +1,17 @@
+define print_cmd
+	printf "cmd = %s \n",cmd
+end
+define print_envir
+    set $count=0
+    while environ[$count]
+        print "%s\n",environ[$count++]
+    end
+    
+end
+document print_cmd
+	display the command you execution
+end
+
+document print_envir
+	display the environment variable
+end
