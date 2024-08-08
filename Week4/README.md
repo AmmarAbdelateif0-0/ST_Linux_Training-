@@ -140,7 +140,7 @@ External commands are any commands not built into the shell. The shell will atte
 
   ```
     ---------------------------------
-  ##Debug with gdb
+  ## Debug with gdb
  
  https://github.com/user-attachments/assets/5dbdd13b-953f-443d-a346-9e0562263962
  
