@@ -43,7 +43,7 @@ The main file that contains the implementation of the custom memory allocator. I
 - `void hmfree(void *target)`: Frees the allocated memory block pointed to by `target`.
 - `void traverse_heap(void *ptr)`: Traverses the heap and prints information about each memory block.
 --------------------------------------
-### [`2-Visualize_Heap`]()
+### [`2-Visualize_Heap`](https://github.com/AmmarAbdelateif0-0/ST_Linux_Training-/tree/main/Week6/Visualize_Heap)
 
 A utility to visualize the current state of the heap. This file includes functionality to traverse and print details of allocated and free memory blocks, allowing you to see how memory is being used.
 
