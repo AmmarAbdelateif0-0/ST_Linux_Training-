@@ -1,0 +1,257 @@
+ 1604  gcc --shared-fPIC -o libmm.so *.o
+ 1605  ./main 
+ 1606  rm heap.o
+ 1607  gcc -c -fPIC heap.c
+ 1608  vim heap.c
+ 1609  gcc -c -fPIC heap.c
+ 1610  ls
+ 1611  ps
+ 1612  exit
+ 1613  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1614  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/foo.a' bash
+ 1615  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/foo' bash
+ 1616  sudo LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1617  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/foo' bash
+ 1618  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1619  $LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1620  $LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/foo' bash
+ 1621  $LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1622  export LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1623  LD_PRELOAD= '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1624  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1625  exixt
+ 1626  exit
+ 1627  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/foo.a' bash
+ 1628  ps
+ 1629  exit
+ 1630  pwd
+ 1631  LD_PRELOAD = 'realpath ./libfoo.a' bash
+ 1632  LD_PRELOAD = '/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1633  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libfoo.a' bash
+ 1634  ps
+ 1635  vim am
+ 1636  asdasd
+ 1637  :q
+ 1638  xit
+ 1639  vim am
+ 1640  vim kk
+ 1641  ls
+ 1642  exit
+ 1643  gcc -c heap.c
+ 1644  ar -rs libfoo.a *.o
+ 1645  LD_PRELOAD='realpath ./libfoo.a' bash
+ 1646  ps
+ 1647  ./output 
+ 1648  vim heap.c
+ 1649  ps -a
+ 1650  ps -u
+ 1651  gdb
+ 1652  sudo gdb
+ 1653  mkdir week7
+ 1654  cd week7/
+ 1655  vim main.c
+ 1656  vim main.h
+ 1657  gcc -c -fPIC *.c
+ 1658  gcc --shared -o libmm.so *.o
+ 1659  LD_PRELOAD=
+ 1660  pwd
+ 1661  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash
+ 1662  vim as
+ 1663  man sbrk
+ 1664  vim heap.
+ 1665  vim heap.c
+ 1666  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash
+ 1667  ps
+ 1668  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash
+ 1669  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libfoo.a' bash
+ 1670  ps
+ 1671  vim ll
+ 1672  q
+ 1673  ex
+ 1674  ps
+ 1675  vim l
+ 1676  cd Desktop/Week6
+ 1677  LS
+ 1678  sl
+ 1679  sudo gdb
+ 1680  cd Randmization_test/
+ 1681  vim heap.c
+ 1682  gcc -c -fPIC *.o
+ 1683  gcc -c -fPIC heap.c
+ 1684  gcc --shared -o libhmm.so *.o
+ 1685  ls
+ 1686  ulimit -c unlimited 
+ 1687  sudo service apport stop
+ 1688  gcc --shared -o libhmm.so *.o -g
+ 1689  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash
+ 1690  ls
+ 1691  gdb LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash core.10198 
+ 1692  sudo gdb LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash core.10198 
+ 1693  LD_PRELOAD='/home/ammar/Desktop/Week6/Heap_Version1/libmm.so' bash 
+ 1694  vim heap.c
+ 1695  gcc heap.c
+ 1696  vim heap.c
+ 1697  gcc heap.c
+ 1698  vim heap.c
+ 1699  gcc heap.c
+ 1700  vim heap.c
+ 1701  gcc heap.c
+ 1702  vim heap.c
+ 1703  gcc heap.c
+ 1704  vim heap.c
+ 1705  gcc heap.c
+ 1706  vim heap.c
+ 1707  gcc heap.c
+ 1708  gcc -c -fPIC heap.c
+ 1709  gcc --shared 
+ 1710  gcc --shared -o libhmm.so *.o
+ 1711  pwd
+ 1712  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1713  vim heap.c
+ 1714  gdb
+ 1715  gcc heap.c
+ 1716  gcc -c -fPIC heap.c
+ 1717  ls
+ 1718  gcc --shared -o libhmm.so *.o
+ 1719  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1720  gcc -c -fPIC heap.c
+ 1721  gcc --shared -o libhmm.so *.o
+ 1722  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1723  vim heap.c
+ 1724  gcc -c -fPIC heap.c
+ 1725  ls
+ 1726  gcc --shared -o libhmm.so *.o
+ 1727  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1728  man assert
+ 1729  ls
+ 1730  vim stress_test.c 
+ 1731  gcc stress_test.c 
+ 1732  ./a.out 
+ 1733  vim stress_test.c 
+ 1734  gcc stress_test.c 
+ 1735  ./a.out 
+ 1736  gcc -c -fPIC heap.c
+ 1737  gcc --shared -o libhmm.so *.o
+ 1738  gcc -c -fPIC heap.c
+ 1739  gcc --shared -o libhmm.so *.o
+ 1740  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so'bash
+ 1741  ps
+ 1742  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1743  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so'bash
+ 1744  ps
+ 1745  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' 
+ 1746  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' bash
+ 1747  mkdir
+ 1748  mkdir hex
+ 1749  cd h
+ 1750  cd hex/
+ 1751  touch heap.c heap.h
+ 1752  gcc -c -fPIC *.c
+ 1753  vim heap.C
+ 1754  ls
+ 1755  vim heap.c
+ 1756  gcc -c -fPIC *.c
+ 1757  ps
+ 1758  vim heap.c
+ 1759  gcc heap.c
+ 1760  gcc -c -fPIC heap.c
+ 1761  ls
+ 1762  gcc --shared -i libhmm.so *.o
+ 1763  gcc --shared -o libhmm.so *.o
+ 1764  ls
+ 1765  LD_PRELOAD='/home/ammar/Desktop/Week6/Randmization_test/libhmm.so' 
+ 1766  pwd
+ 1767  LD_PRELOAD='/home/ammar/Desktop/hex/libhmm.so' bash 
+ 1768  LD_PRELOAD='/home/ammar/Desktop/hex/libhmm.so'bash 
+ 1769  ps
+ 1770  LD_PRELOAD='/home/ammar/Desktop/hex/libhmm.so' bash 
+ 1771  ps -us
+ 1772  ps -as
+ 1773  LD_PRELOAD=./libhmm.so bash 
+ 1774  vim
+ 1775  sdaccasc:q
+ 1776  a
+ 1777  s
+ 1778  adfadq
+ 1779  q
+ 1780  ls
+ 1781  ps -au
+ 1782  vim ammar
+ 1783  exit
+ 1784  gcc heap.c
+ 1785  vim heap.c
+ 1786  gcc heap.c
+ 1787  vim heap.h
+ 1788  gcc heap.c
+ 1789  gcc -c -fPIC *.c
+ 1790  ls
+ 1791  gcc --shared -o libk.so *.o
+ 1792  ls
+ 1793  LD_PRELOAD=./libk.so ls
+ 1794  man sbrk 
+ 1795  gcc -c -fPIC *.c
+ 1796  gcc --shared -o libk.so *.o
+ 1797  LD_PRELOAD=./libk.so ls
+ 1798  vim heap.c
+ 1799  gcc -c -fPIC *.c
+ 1800  gcc --shared -o libk.so *.o
+ 1801  LD_PRELOAD=./libk.so ls
+ 1802  LD_PRELOAD=./libk.so bash
+ 1803  ps -au
+ 1804  exit
+ 1805  gdb
+ 1806  q
+ 1807  exit 
+ 1808  LD_PRELOAD=./libk.so ls
+ 1809  LD_PRELOAD=./libk.so gedit 
+ 1810  LD_PRELOAD=./libk.so gdb
+ 1811  LD_PRELOAD=./libk.so bash
+ 1812  exit 
+ 1813  ps
+ 1814  ps -au
+ 1815  ps -aut
+ 1816  man ps
+ 1817  ps -tau
+ 1818  ps -aut
+ 1819  ps -autl
+ 1820  ps -ault
+ 1821  ps -aul
+ 1822  ps -au
+ 1823  top
+ 1824  ps -t
+ 1825  ps -a
+ 1826  sudo gdb vim
+ 1827  vim ammar
+ 1828  exit 
+ 1829  mkdir heap_mangment
+ 1830  cd heap_mangment/
+ 1831  vim heap.c
+ 1832  ls
+ 1833  gcc heap.c
+ 1834  vim heap.h
+ 1835  vim ammar
+ 1836  gedit 
+ 1837  ps -au
+ 1838  gdb 
+ 1839  sudo gdb 
+ 1840  ps -au
+ 1841  ls
+ 1842  gedit
+ 1843  touch ammar
+ 1844  ls
+ 1845  vim ammar
+ 1846  ls
+ 1847  rm ammar 
+ 1848  exit
+ 1849  history 
+ 1850  ps
+ 1851  LD_PRELOAD=./libk.so bash
+ 1852  ps -au
+ 1853  ls
+ 1854  vim ammar
+ 1855  ls
+ 1856  rm ammar 
+ 1857  exit
+ 1858  history 
+ 1859  cd Desktop/
+ 1860  history > commands
