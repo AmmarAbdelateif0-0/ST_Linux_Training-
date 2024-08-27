@@ -6,7 +6,7 @@ This project implements a simple memory management library with custom allocatio
 
 - `heap.h`: Header file containing the definitions and declarations for the memory management functions.
 - `heap.c`: Source file containing the implementation for malloc,calloc, realloc and free.
--`HmmAlloc.c` :Source file containing the implementation for HmmAlloc and split_block .
+- `HmmAlloc.c` :Source file containing the implementation for HmmAlloc and split_block .
 - `HmmFree.c`:Source file containing the implementation for HmmFree and merge_block .
 
 
